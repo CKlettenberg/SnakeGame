@@ -76,7 +76,7 @@ public class SnakeGame extends JPanel implements ActionListener {
 
     private Color getRandomColor() {
         Random rand = new Random();
-        return new Color(rand.nextInt(256), rand.nextInt(256), rand.nextInt(256)); // RGB values between 0-255
+        return new Color(rand.nextInt(256), rand.nextInt(256), rand.nextInt(256)); 
     }
 
     @Override
